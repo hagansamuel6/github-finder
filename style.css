@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+    font-family: 'ubuntu', 'sans-serif';
+}
+
+.header {
+    background: #aeeca1;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+
+.footer {
+    background: #f1e7d8;
+    margin-top: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+@media(max-width: 700px){
+    .header {
+        text-align: center;
+    }
+} 
